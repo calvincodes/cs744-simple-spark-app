@@ -1,6 +1,7 @@
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 
+//TODO: Comment everything
 object SimpleSparkApp {
 
   def main(args: Array[String]): Unit = {
