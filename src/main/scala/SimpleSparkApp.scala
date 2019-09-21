@@ -9,8 +9,8 @@ object SimpleSparkApp {
     val conf = new SparkConf().setAppName("SimpleSparkApp")
     val sc = new SparkContext(conf)
 
-    val inputLocation = args(0) // For testing use "hdfs://128.104.223.172:9000/users/ajain/hdfs/input/part2_data.csv"
-    val outputLocation = args(1) // For testing use "hdfs://128.104.223.172:9000/users/ajain/hdfs/output/"
+    val inputLocation = args(0) // For testing use "hdfs://128.104.223.172:9000/users/ajain/hdfs/input_2/part2_data.csv"
+    val outputLocation = args(1) // For testing use "hdfs://128.104.223.172:9000/users/ajain/hdfs/output_2/"
 
     val rawData = sc.textFile(inputLocation)
 
@@ -22,6 +22,8 @@ object SimpleSparkApp {
     val resultRdd = sortedRdd.map(line => line._2)
 
     resultRdd.saveAsTextFile(outputLocation)
+
+    sc.stop()
   }
 
 }
