@@ -14,6 +14,7 @@ object SimpleSparkApp {
 
     val rawData = sc.textFile(inputLocation)
 
+    //TODO: Ensure that the generated hash is presorted!
     val ccTimestampToLine
       = rawData.map(line => (line.split(",")(3).hashCode + line.split(",")(14), line))
 
