@@ -1,1 +1,42 @@
-# cs744-simple-spark-app
+# Simple Spark App
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+* scala-2.11.6
+* sbt
+* Java (assuming available)
+* HDFS (assuming available)
+* Spark (assuming available)
+
+### Installing
+
+#### Installing scala
+```
+sudo apt-get update
+sudo apt-get install scala
+```
+
+#### Installing sbt
+```
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo apt-key add
+sudo apt-get update
+sudo apt-get install sbt
+```
+
+## Running the application
+
+```sh run.sh```
+
+This will ask you to provide `input_file_path` and `output_file_path`. You can have them on HDFS or local FS.
+
+## Authors
+
+* **[Anshu Verma](https://github.com/anshuv99)**
+* **[Arpit Jain](https://github.com/calvincodes)**
+* **[Arun Jose](https://github.com/arun123jose)**
+
