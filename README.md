@@ -30,6 +30,8 @@ sudo apt-get install sbt
 
 The arguments passed to run.sh are `input_file_path` and `output_directory_path`.
 
+Also, spark master should be defined in spark-default.conf. It is not passed via spark-submit.
+
 Note: Overwriting output_directory is not allowed. Hence, to re-run, remove the existing output_directory or pass a new one.
 
 ## Authors
