@@ -26,9 +26,11 @@ sudo apt-get install sbt
 
 ## Running the application
 
-```sh run.sh```
+```sh run.sh "hdfs://10.10.1.1:9000/input/file/path" "hdfs://10.10.1.1:9000/output/directory/path"```
 
-This will ask you to provide `input_file_path` and `output_file_path`. You can have them on HDFS or local FS.
+The arguments passed to run.sh are `input_file_path` and `output_directory_path`.
+
+Note: Overwriting output_directory is not allowed. Hence, to re-run, remove the existing output_directory or pass a new one.
 
 ## Authors
 
