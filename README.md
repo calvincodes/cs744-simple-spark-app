@@ -7,10 +7,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 * scala-2.11.6
-* sbt
-* Java (assuming available)
-* HDFS (assuming available)
-* Spark (assuming available)
+* sbt-1.3.2
+* Java-1.8 (assuming available)
+* HDFS-3.1.2 (assuming available)
+* Spark-2.4.4 (assuming available)
 
 ### Installing
 
