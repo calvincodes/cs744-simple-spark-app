@@ -38,5 +38,5 @@ Note: Overwriting output_directory is not allowed. Hence, to re-run, remove the 
 
 * **[Anshu Verma](https://github.com/v-anshu)**
 * **[Arpit Jain](https://github.com/calvincodes)**
-* **[Arun Jose](https://github.com/arun123jose)**
+* **[Arun Jose](https://github.com/jose-arun)**
 
