@@ -36,7 +36,7 @@ Note: Overwriting output_directory is not allowed. Hence, to re-run, remove the 
 
 ## Authors
 
-* **[Anshu Verma](https://github.com/anshuv99)**
+* **[Anshu Verma](https://github.com/v-anshu)**
 * **[Arpit Jain](https://github.com/calvincodes)**
 * **[Arun Jose](https://github.com/arun123jose)**
 
